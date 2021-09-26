@@ -1,6 +1,10 @@
+
+
 # -*- coding: utf-8 -*-
 """
             LISTS
+
+
 """
 
 
@@ -85,4 +89,4 @@ Task 2
     
 """
 
-use_me = [False, 'Lum', True]
+Changed_var = [False, 'Lum', True]
