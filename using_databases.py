@@ -82,4 +82,27 @@ def Parsing(list_of_random_numbers: list, useful_dict: dict):
     return useful_dict
 
 
+"""
+                         OK NOW SQL
+    ---
+    I will create the SQL statements in strings, 
+    then pass the variable to the pymysql function.
+
+    Simply to increase readability
+
+"""
+
+# We already created Make and MySQL but we highlight it again
+# Make = pymysql.connect()
+# MySQL = Make.cursor() 
+
+
+#  In general pymysql works like this:
+
+MySQL.execute(" SHOW DATABASES; ") # Where SHOW DATABASES is SQL code
+
+# Basic SQL commands are INSERT to input data and SELECT to get data, i.e.
+
+command  =  " CREATE DATABASE Practice;"
+MySQL.execute(command)
 
